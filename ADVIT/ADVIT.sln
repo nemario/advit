@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Clients", "1.Clients", "{E49A0C34-D988-404D-A958-42E714F13BA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Managers", "2.Managers", "{F336DE10-378D-42D5-8D1A-34F61C1EFB0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Engines", "3.Engines", "{13504EFC-F837-434E-A058-4425EE1BC074}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.ResourceAccess", "4.ResourceAccess", "{1A44188C-264E-43AE-9EA7-212C861BA7EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Shared", "5.Shared", "{A9ADAC1F-8161-4114-9890-860CEBF206E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Database", "6.Database", "{E8A099BC-A856-4CBC-AACA-F794E3592A5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{9E8ADE23-2086-4696-8A1C-645EB2B5C4AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Externals", "Externals", "{6DCDA59E-9D48-4ADB-B8C0-431503A6750B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A39CCE46-4DE8-442C-8BEE-C225400DF543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContracts", "advit.shared.DataContracts\DataContracts.csproj", "{CC83989C-6F98-4C1D-B864-75F83CFC5DBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC83989C-6F98-4C1D-B864-75F83CFC5DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC83989C-6F98-4C1D-B864-75F83CFC5DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC83989C-6F98-4C1D-B864-75F83CFC5DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC83989C-6F98-4C1D-B864-75F83CFC5DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC83989C-6F98-4C1D-B864-75F83CFC5DBE} = {A9ADAC1F-8161-4114-9890-860CEBF206E0}
+	EndGlobalSection
+EndGlobal
