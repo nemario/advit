@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace advit.shared.DataContracts.Core.Structure
+namespace advit.shared.DataContracts.Core.Device
 {
     [DataContract]
     public class Device : CoreBase
@@ -14,7 +14,13 @@ namespace advit.shared.DataContracts.Core.Structure
         public long RoomId { get; set; }
 
         [DataMember]
+        public string DisplayName { get; set; }
+
+        [DataMember]
         public DeviceType DeviceTypeId { get; set; }
+
+        [DataMember]
+        public long InchesOffFloor { get; set; }
 
     }
 

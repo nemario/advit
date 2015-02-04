@@ -44,9 +44,14 @@
   <ItemGroup>
     <Compile Include="Core\Structure\Building.cs" />
     <Compile Include="Core\CoreBase.cs" />
-    <Compile Include="Core\Structure\Device.cs" />
+    <Compile Include="Core\Device\Device.cs" />
+    <Compile Include="Core\Structure\StructureBase.cs" />
+    <Compile Include="Core\Structure\Coordinate.cs" />
     <Compile Include="Core\Structure\Layer.cs" />
     <Compile Include="Core\Structure\Room.cs" />
+    <Compile Include="Core\Device\Sensor.cs" />
+    <Compile Include="Core\Device\DeviceData.cs" />
+    <Compile Include="Core\Device\SensorData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

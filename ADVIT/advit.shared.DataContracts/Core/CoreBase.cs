@@ -11,10 +11,7 @@ namespace advit.shared.DataContracts.Core
         [Key]
         [DataMember]
         [Required]
-        public long? Id { get; set; }
-
-        [DataMember]
-        public string DisplayName { get; set; }
+        public string Id { get; set; }
 
         [DataMember]
         public string LastModifiedBy { get; set; }

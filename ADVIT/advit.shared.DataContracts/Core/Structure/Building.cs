@@ -8,17 +8,17 @@ using System.Threading.Tasks;
 namespace advit.shared.DataContracts.Core.Structure
 {
     [DataContract]
-    public class Building : CoreBase
+    public class Building : StructureBase
     {
+
+        [DataMember]
+        public string DisplayName { get; set; }
 
         [DataMember]
         public BuildingType BuildingTypeId { get; set; }
 
         [DataMember]
-        public long GridWidth { get; set; }
-
-        [DataMember]
-        public long GridHeight { get; set; }
+        public long DimensionId { get; set; }
         
     }
 

@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace advit.shared.DataContracts.Core.Structure
+namespace advit.shared.DataContracts.Core.Device
 {
     [DataContract]
     public class Sensor
@@ -31,13 +31,13 @@ namespace advit.shared.DataContracts.Core.Structure
         SmokeCo2 = 30,
 
         [EnumMember]
-        OpenClose = 31,
+        OpenClose = 42,
 
         [EnumMember]
         Presence = 40,
 
         [EnumMember]
-        Water = 21
+        Water = 22
 
     }
 }
